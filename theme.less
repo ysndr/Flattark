@@ -1,0 +1,134 @@
+/**
+ * Theme BoilerPlate Copyright (c) 2014 Miguel Castillo.
+ *
+ * Licensed under MIT
+ */
+
+@background: #3c3f41;
+@foreground: rgba(212, 198, 198, 0.9);
+;
+
+
+
+
+/* Code Styling */
+@activeline: #2D2E30;
+
+@linenumber: #47484B;
+@activelinenumber: #c7c1c1;
+
+
+.CodeMirror, .CodeMirror-scroll {
+	background-color: @background;
+	color: @foreground;
+}
+
+.CodeMirror-focused .CodeMirror-activeline-background {
+	background: @activeline;
+}
+&.show-line-padding .CodeMirror-focused .CodeMirror-activeline-background {
+	box-shadow: inset 15px 0 0 0 #000;
+}
+
+
+
+// "gutter"
+.CodeMirror-gutters {
+	background-color: @background;
+	color: @linenumber;
+	border-right: none;
+}
+.CodeMirror-focused .CodeMirror-activeline {
+	.CodeMirror-gutter-elt {
+		background: @activeline;
+		color: @activelinenumber;
+	}
+	.inline-widget .CodeMirror-gutter-elt {
+		color: @linenumber;
+	}
+}
+
+
+
+
+.CodeMirror-searching {
+	background-color: #00bfbf;
+	&.searching-current-match {
+		background-color: #0ff;
+	}
+}
+
+
+// default curser
+.CodeMirror-cursor {
+	border-left: 1px solid @activelinenumber !important;
+}
+// overwriting curser
+.CodeMirror-overwrite .CodeMirror-cursor {
+	border-left: none !important;
+	border-bottom: 1px solid @activelinenumber;
+}
+
+
+
+.CodeMirror .CodeMirror-selected {
+	background-color: rgba(85, 85, 85, 0.65) !important;
+}
+.CodeMirror-focused .CodeMirror-selected {
+	background: #555;
+}
+
+
+
+.CodeMirror-matchingbracket, .CodeMirror-matchingtag {
+	/* Ensure visibility against gray inline editor background */
+	background-color: @background;
+	color: rgba(245, 88, 106, 0.85) !important;
+}
+
+
+/* Non-editor styling */
+#image-holder,
+#not-editor 	{ background-color: @background; }
+#image-holder 	{ color: @foreground; }
+
+
+.cm-atom		{ color: #41cff0; }
+.cm-string		{ color: #41cff0; }
+.cm-string-2	{ color: #41cff0; }
+.cm-number		{ color: #11a6c9; }
+
+.cm-hr			{ color: #3acccc; }
+
+.cm-plus 		{ color: rgba(46, 253, 189, 0.85); }
+.cm-attribute	{ color: rgba(46, 253, 189, 0.85); }
+.cm-property 	{ color: rgba(46, 253, 189, 0.85); }
+.cm-keyword		{ color: rgba(46, 253, 189, 0.85); }
+
+.cm-def			{ color: rgba(245, 88, 106, 0.85); } // when defining a value
+.cm-qualifier	{ color: rgba(245, 88, 106, 0.85); } // like css classes
+.cm-builtin		{ color: #c9327b; } // like css ids
+.cm-variable 	{ color: rgba(245, 88, 106, 0.85); } // if [variable]
+.cm-variable-2 	{ color: rgba(245, 88, 106, 0.85); } // when accessing a value
+.cm-variable-3 	{ color: rgba(245, 88, 106, 0.85); } // don't know
+
+.cm-operator 	{ color: @foreground; } // =+- etc.
+.cm-meta 		{ color: #4599be; }
+.cm-bracket		{ color: #4599be; }
+.cm-link		{ color: #c9327b; }
+.cm-tag			{ color: #c9327b; }
+
+// comments
+.cm-comment		{ color: #7f7f7f; }
+.cm-error		{ color: #c15856; text-decoration: none; }
+.cm-minus		{ color: #c15856; text-decoration: none; }
+
+// var/function/etc
+
+.cm-header		{ color: #d85896; }
+.cm-rangeinfo	{ color: #c9327b; }
+.cm-quote 		{ color: #b77fdb; text-decoration: none; }
+
+
+
+
