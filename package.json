@@ -1,0 +1,19 @@
+{
+    "title": "custom flat dark",
+    "name": "boilerplate",
+    "description": "My Awesome Theme for Brackets",
+    "version": "0.0.1",
+    "author": "Your Name <youremail@gmail.com>",
+    	"repository": {
+        "type": "git",
+        "url": "git://github.com/yangodev/Brackets-Themes.git"
+    },
+    "engines": {
+        "brackets": ">=0.42.0"
+    },
+    "theme": {
+        "file": "main.less",
+		"dark": true
+    },
+    "screenshot": "screenshot.png"
+}
