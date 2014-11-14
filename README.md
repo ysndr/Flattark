@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 BoilerPlate
 ===========
 
@@ -26,3 +27,7 @@ Now that you have installed and selected boilerplate theme, you can customize it
 3. The `package.json` must have a `theme` object.  This object as of right now contains a `file` field, which is the file name; in the case of BoilerPlate, it is "main.less".  Another field is `dark`, which is a boolean that tells Brackets to setup an all around dark theme.
 4. It must have a `name` field, with the name for the theme. In BoilerPlate the name is simply "boilerplate".
 5. For now, your theme extension needs to have a main.js, as that is a requirement for extensions to be installed.  The file should be completely empty.
+=======
+Brackets-Themes
+===============
+>>>>>>> e1a3fd1529f9da0c33fedddd4b5c153b029c93b5
