@@ -1,9 +1,9 @@
 {
-    "title": "custom flat dark",
-    "name": "boilerplate",
-    "description": "My Awesome Theme for Brackets",
+    "title": "Flattark Dark",
+    "name": "Flattark Dark",
+    "description": "Dark Flat Theme for Brackets",
     "version": "0.0.1",
-    "author": "Your Name <youremail@gmail.com>",
+    "author": "y4mg0@yangodev <https://github.com/yangodev>",
     	"repository": {
         "type": "git",
         "url": "git://github.com/yangodev/Flattark.git"
