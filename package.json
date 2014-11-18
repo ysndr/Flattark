@@ -2,12 +2,19 @@
     "title": "Flattark Dark",
     "name": "yangodev-flattark-dark",
     "description": "Dark Flat Theme for Brackets",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "author": "y4ng0@yangodev <https://github.com/yangodev>",
-    	"repository": {
+    "homepage": "https://github.com/yangodev/Flattark",
+    "repository": {
         "type": "git",
         "url": "git://github.com/yangodev/Flattark.git"
     },
+    "keywords":[
+    	"dark",
+    	"flattark",
+    	"flat",
+    	"theme"
+    ],
     "engines": {
         "brackets": ">=0.42.0"
     },
@@ -15,5 +22,5 @@
         "file": "theme.less",
 		"dark": true
     },
-    "screenshot": "screenshot.png"
+    "screenshot": "screen.png"
 }
