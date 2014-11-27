@@ -4,5 +4,5 @@
 #### It is based on [Slickrock](https://github.com/NicoM1/Slickrock) with custom colors
 ## See
 *A dark, minimal theme for the Brackets text-editor.*
-![JS](./scrot-js.png)
-![LESS](./scrot-less.png)
+![JS](./screen-js.png)
+![LESS](./screen-less.png)
